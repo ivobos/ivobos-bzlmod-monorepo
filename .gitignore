@@ -1,5 +1,4 @@
-/bazel-bin/
-/bazel-ivobos-monorepo/
-/bazel-out/
-/bazel-testlogs/
-/bazel-bin/
+bazel-bin
+bazel-ivobos-monorepo
+bazel-out
+bazel-testlogs
