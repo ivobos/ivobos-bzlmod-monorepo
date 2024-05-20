@@ -8,13 +8,11 @@ jobs:
   ci: 
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - uses: bazel-contrib/setup-bazel@0.8.1
         with:
           bazelisk-cache: true
           disk-cache: ${{ github.workflow }}
           repository-cache: true
-      - run: pwd
-      - run: bazel --version
-      - run: ls -ltr
       - run: bazel build //...
       - run: bazel test //...
