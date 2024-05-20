@@ -15,5 +15,6 @@ jobs:
           repository-cache: true
       - run: pwd
       - run: bazel --version
+      - run: ls -ltr
       - run: bazel build //...
       - run: bazel test //...
