@@ -1,6 +1,6 @@
 {
   "lockFileVersion": 6,
-  "moduleFileHash": "1dd7df645ad58ffaffee3ad57a0c21e9bcf6be266d7209061dbdc96fbb873dfd",
+  "moduleFileHash": "71057af225a0d3040384cc83aa50cfb541286bd2818288febf2cc8b49c23d71b",
   "flags": {
     "cmdRegistries": [
       "https://bcr.bazel.build/"
@@ -17,10 +17,10 @@
   },
   "moduleDepGraph": {
     "<root>": {
-      "name": "ivobos-monorepo",
+      "name": "ivobos-bazel-monorepo",
       "version": "0.0.0",
       "key": "<root>",
-      "repoName": "ivobos-monorepo",
+      "repoName": "ivobos-bazel-monorepo",
       "executionPlatformsToRegister": [],
       "toolchainsToRegister": [],
       "extensionUsages": [
