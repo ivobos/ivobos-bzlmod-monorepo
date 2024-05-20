@@ -2,3 +2,5 @@ bazel-bin
 bazel-ivobos-monorepo
 bazel-out
 bazel-testlogs
+/.ijwb/
+/.idea/
