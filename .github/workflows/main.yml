@@ -16,5 +16,7 @@ jobs:
           disk-cache: ${{ github.workflow }}
           # Share repository cache between workflows.
           repository-cache: true
+      - run: pwd
+      - run: ls
       - run: bazel build //...
       - run: bazel test //...
