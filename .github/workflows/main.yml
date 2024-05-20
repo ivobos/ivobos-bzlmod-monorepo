@@ -1,0 +1,20 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request: 
+    branches: [main]
+jobs:
+  ci: 
+    run_on: ubuntu-latest
+    steps:
+      - uses: bazel-contrib/setup-bazel@0.8.1
+        with:
+          # Avoid downloading Bazel every time.
+          bazelisk-cache: true
+          # Store build cache per workflow.
+          disk-cache: ${{ github.workflow }}
+          # Share repository cache between workflows.
+          repository-cache: true
+      - run: bazel build //...
+      - run: bazel test //...
