@@ -1,0 +1,10 @@
+load("@third-party//:requirements.bzl", "requirement")
+
+py_binary(
+    name = "main",
+    srcs = ["main.py"],
+    deps = [
+        "//projects/python_calculator:calculator",
+        requirement("Flask"),
+    ],
+)

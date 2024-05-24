@@ -6,11 +6,17 @@ module(
 
 bazel_dep(name = "rules_python", version = "0.32.2")
 
+python = use_extension("@rules_python//python/extensions:python.bzl", "python")
+python.toolchain(
+    configure_coverage_tool = True,
+    python_version = "3.11",
+)
+
 # build third-party requirements
 pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
 pip.parse(
     hub_name = "third-party",
     python_version = "3.11",
-    requirements_lock = "//projects/third-party:requirements_lock.txt",
+    requirements_lock = "//third-party:requirements_lock.txt",
 )
 use_repo(pip, "third-party")

@@ -1,7 +1,8 @@
 from flask import Flask
 from random import randint
+import sys
 
-from projects.calculator.calculator import Calculator
+from projects.python_calculator.calculator import Calculator
 
 app = Flask(__name__)
 my_calculator = Calculator()
@@ -16,4 +17,8 @@ def hell():
 
 
 if __name__ == '__main__':
+    print("Python version (string):", sys.version)
+    print("Python version info (tuple):", sys.version_info)
+    print("Path of the Python executable:", sys.executable)
+    print("Path of the script:", __file__)
     app.run()
