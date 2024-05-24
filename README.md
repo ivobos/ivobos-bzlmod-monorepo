@@ -30,7 +30,20 @@ bazel build //...
 bazel test //...
 ```
 
-# run
+# run python app
 ```shell
 bazel run projects/my-python-app/...
+```
+
+# run go app
+```shell
+bazel run projects/go_web
+```
+and visit localhost:8000 in your browser
+
+# go build files
+go build files are managed by  https://github.com/bazelbuild/bazel-gazelle
+to update the BUILD files run 
+```shell
+bazel run //:gazelle
 ```

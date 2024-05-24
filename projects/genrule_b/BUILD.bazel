@@ -2,5 +2,5 @@ genrule(
     name = "foo",
     srcs = [],
     outs = ["bar.txt"],
-    cmd  = "sleep 3 && echo 'Hello Globe!!' > $@",
+    cmd = "sleep 3 && echo 'Hello Globe!!' > $@",
 )
