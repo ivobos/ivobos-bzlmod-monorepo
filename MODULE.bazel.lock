@@ -1477,7 +1477,7 @@
     },
     "@@bazel_features~//private:extensions.bzl%version_extension": {
       "general": {
-        "bzlTransitiveDigest": "UwYHXjy4P9iCTMR9n5kWsy4RwLoowjUrfDFTkBo5RG8=",
+        "bzlTransitiveDigest": "3FcE0iMy2yYKEbEO19f72k9dzcpRUXHH+igow5yVy8g=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -1597,7 +1597,7 @@
     },
     "@@rules_java~//java:extensions.bzl%toolchains": {
       "general": {
-        "bzlTransitiveDigest": "0N5b5J9fUzo0sgvH4F3kIEaeXunz4Wy2/UtSFV/eXUY=",
+        "bzlTransitiveDigest": "tJHbmWnq7m+9eUBnUdv7jZziQ26FmcGL9C5/hU3Q9UQ=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -2102,7 +2102,7 @@
     },
     "@@rules_python~//python/extensions:pip.bzl%pip": {
       "os:osx,arch:aarch64": {
-        "bzlTransitiveDigest": "GXlHhgYoLCtXGuzJN1iWZdF32rhqjKG0I/h7bUtTYk4=",
+        "bzlTransitiveDigest": "EGvhx/b7zG4UA98wHeXXoXWROZ0NK8dARgVXMuyJQpU=",
         "recordedFileInputs": {
           "@@//third-party/requirements_lock.txt": "8267ad92f9b167ce02a6e0b72b974bddb1c12fe41701abe2cb40485d8af7861f",
           "@@rules_python~//tools/publish/requirements_darwin.txt": "a29d72a09b755c284377ca1bb4ae1bea27ef8b01d575b40e21a777e53b513381"
@@ -2775,7 +2775,7 @@
     },
     "@@rules_python~//python/extensions:python.bzl%python": {
       "general": {
-        "bzlTransitiveDigest": "edBvwplYZml7N83AeuVHqQt08wQir1gxodtEEUpj57k=",
+        "bzlTransitiveDigest": "QIgyqZIIKqo2p1U8K64RdUfCLCKWDVsrlc/GfE1CJho=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -3057,7 +3057,7 @@
     },
     "@@rules_python~//python/private/bzlmod:internal_deps.bzl%internal_deps": {
       "general": {
-        "bzlTransitiveDigest": "GhJSMl+mWW0vGus1bH+XZR4XgyZY9AN6/75eaUTp2pk=",
+        "bzlTransitiveDigest": "fDqhuyt2dROfO6qL4WlobPgyJCNlwP0fPCgW6fEpFMg=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},

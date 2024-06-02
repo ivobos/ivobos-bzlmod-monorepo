@@ -1,4 +1,7 @@
 
+# nix setup
+TODO: update readme to use nix flake
+
 # Install bazel via bazelisk
 on mac , also install buildifier for formatting BUILD files
 ```
