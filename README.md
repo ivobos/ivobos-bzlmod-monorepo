@@ -1,26 +1,21 @@
 
 # nix setup
-TODO: update readme to use nix flake
+## Install nix 
+from https://nixos.org/download/
 
-# Install bazel via bazelisk
-on mac , also install buildifier for formatting BUILD files
+## Install direnv and configure
 ```
-brew install bazelisk
-brew install buildifier
+brew install direnv
 ```
+Hook direnv into shells as per https://direnv.net/docs/hook.html
 
-# IntelliJ integration
-Make sure you have Bazel For IntelliJ plugin installed.
-Clone repo and run intelliJ
-```bash
-git clone https://github.com/ivobos/ivobos-bazel-monorepo.git
-idea ivobos-bazel-monorepo
+Enable flake
 ```
-
-Include all files in project by editing .ijwb/.bazelproject as per below and running Bazel>Sync>SyncWithBuildFiles
+sudo vi /etc/nix/nix.conf
 ```
-directories: 
-  .
+Add following:
+```
+experimental-features = flakes nix-command
 ```
 
 # build
@@ -49,4 +44,9 @@ go build files are managed by  https://github.com/bazelbuild/bazel-gazelle
 to update the BUILD files run 
 ```shell
 bazel run //:gazelle
+```
+
+# run C++ app
+```
+bazel run projects/hello_cc:hello-world
 ```
