@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/ivobos/ivobos-bazel-monorepo/projects/go_hello_world"
+	"github.com/ivobos/ivobos-bzlmod-monorepo/projects/go_hello_world"
 	"log"
 	"net/http"
 )

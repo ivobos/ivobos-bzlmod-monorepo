@@ -1,6 +1,6 @@
 load("@gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix github.com/ivobos/ivobos-bazel-monorepo
+# gazelle:prefix github.com/ivobos/ivobos-bzlmod-monorepo
 gazelle(name = "gazelle")
 
 

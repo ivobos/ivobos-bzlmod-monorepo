@@ -1,4 +1,4 @@
-module github.com/ivobos/ivobos-bazel-monorepo
+module github.com/ivobos/ivobos-bzlmod-monorepo
 
 go 1.19
 

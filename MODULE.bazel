@@ -1,5 +1,5 @@
 module(
-    name = "ivobos-bazel-monorepo",
+    name = "ivobos-bzlmod-monorepo",
     version = "0.0.0",
     compatibility_level = 1,
 )

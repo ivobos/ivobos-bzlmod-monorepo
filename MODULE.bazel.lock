@@ -1,6 +1,6 @@
 {
   "lockFileVersion": 6,
-  "moduleFileHash": "72824a76bf7359ea1f65a1df49a463979eaf139e33c625d901302b99ba08c733",
+  "moduleFileHash": "6166f44ddd5d0db0c9c3efb9ef2607cc6d63a2e7353fd17d73d45d161294caf8",
   "flags": {
     "cmdRegistries": [
       "https://bcr.bazel.build/"
@@ -17,10 +17,10 @@
   },
   "moduleDepGraph": {
     "<root>": {
-      "name": "ivobos-bazel-monorepo",
+      "name": "ivobos-bzlmod-monorepo",
       "version": "0.0.0",
       "key": "<root>",
-      "repoName": "ivobos-bazel-monorepo",
+      "repoName": "ivobos-bzlmod-monorepo",
       "executionPlatformsToRegister": [],
       "toolchainsToRegister": [],
       "extensionUsages": [
@@ -2977,7 +2977,7 @@
     },
     "@@aspect_rules_js~//npm:extensions.bzl%pnpm": {
       "general": {
-        "bzlTransitiveDigest": "ZlvfCwqrRVP9m+yCeoO0zT0qdesLbBA21/XuHbe931Q=",
+        "bzlTransitiveDigest": "xhrVFvDcfZRq3Y6aeTuNRAtkPAEWn6zKiXD7ROsMSHs=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -4184,7 +4184,7 @@
     },
     "@@rules_python~//python/extensions:pip.bzl%pip": {
       "os:osx,arch:aarch64": {
-        "bzlTransitiveDigest": "EGvhx/b7zG4UA98wHeXXoXWROZ0NK8dARgVXMuyJQpU=",
+        "bzlTransitiveDigest": "m4/352AUnZh57qplVIZFEqYOT1s4B8dhETDPOy3VAtQ=",
         "recordedFileInputs": {
           "@@//third-party/requirements_lock.txt": "8267ad92f9b167ce02a6e0b72b974bddb1c12fe41701abe2cb40485d8af7861f",
           "@@rules_python~//tools/publish/requirements_darwin.txt": "a29d72a09b755c284377ca1bb4ae1bea27ef8b01d575b40e21a777e53b513381"
