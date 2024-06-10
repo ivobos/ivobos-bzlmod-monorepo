@@ -5,3 +5,4 @@ bazel-testlogs
 /.ijwb/
 /.idea/
 bazel-ivobos-bzlmod-monorepo
+node_modules
